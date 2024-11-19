@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>POLLUTION</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <style>
+      body {
+        background-color: pink;
+      }
+      .imgp {
+        height: 300px;
+        margin: 20px;
+      }
+      img {
+        height: 100%;
+        border-radius: 20px;
+      }
+      .allimg {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+      }
+      li {
+        list-style: none;
+      }
+      .content li::before {
+        content: "✔";
+      }
+      p {
+        text-align: justify;
+      }
+      .ttt {
+        font-size: 18px;
+      }
+      .atag {
+        text-decoration: none;
+      }
+      .atag:hover {
+        border-bottom: 1px solid violet;
+      }
+      h1{
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="risat.com">Risat's project</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >About Pollution articles</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="#">Contact me</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li><a class="dropdown-item" href="#">Go to your home</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <h1 class="pt-5 mt-3"><u>POLLUTION AND POLLUTION CONTROL</u></h1>
+
+      <div class="allimg">
+        <div class="imgp">
+          <img src="image/pollution1.jpg" title="pollution" />
+        </div>
+        <div class="imgp">
+          <img src="image/pollution3.jpg" title="pollution" />
+        </div>
+        <div class="imgp">
+          <img src="image/pollution5.jpg" title="pollution" />
+        </div>
+        <div class="imgp">
+          <img src="image/pollution6.jpg" title="pollution" />
+        </div>
+      </div>
+
+      <p>
+        <big
+          >Pollution is the introduction of contaminants into the natural
+          environment that cause adverse change.Pollution can take the form of
+          chemical substance or energy,such as noice,heat or light.Pollutants,
+          the the components of pollution, can be either foreign
+          substances/energies or naturally occuring contaminants. Pollution is
+          often classed as point source or nonpoint sourse polltion.</big
+        >
+      </p>
+
+      <h4 class="mb-2 mt-5" style="text-align: center">
+        Our main topics are down below:
+      </h4>
+
+      <div
+        class="accordion accordion-flush"
+        id="accordionFlushExample"
+        style="margin-bottom: 25px"
+      >
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne"
+              aria-expanded="false"
+              aria-controls="flush-collapseOne"
+            >
+              Air pollution
+            </button>
+          </h2>
+          <div
+            id="flush-collapseOne"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Tap <a href="air.html">here</a> to see the air pollution page!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo"
+              aria-expanded="false"
+              aria-controls="flush-collapseTwo"
+            >
+              Water polltion
+            </button>
+          </h2>
+          <div
+            id="flush-collapseTwo"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Tap <a href="water.html">here</a> to see the water pollution page!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree"
+              aria-expanded="false"
+              aria-controls="flush-collapseThree"
+            >
+              Soil polltion
+            </button>
+          </h2>
+          <div
+            id="flush-collapseThree"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Tap <a href="soil.html">here</a> to see the soil pollution page!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFour"
+              aria-expanded="false"
+              aria-controls="flush-collapseTwo"
+            >
+              Noise polltion
+            </button>
+          </h2>
+          <div
+            id="flush-collapseFour"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Tap <a href="noise.html">here</a> to see the noise pollution page!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFive"
+              aria-expanded="false"
+              aria-controls="flush-collapseTwo"
+            >
+              Prevension polltion
+            </button>
+          </h2>
+          <div
+            id="flush-collapseFive"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Tap <a href="prevension.html">here</a> to see the prevension of
+              pollution page!
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr style="margin-bottom: 0; margin-top: 10px" />
+      <p style="text-align: center; margin-bottom: 5px; font-weight: 500">
+        Risat &copy; All rights reserved
+      </p>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
